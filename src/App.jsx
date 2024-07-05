@@ -28,7 +28,7 @@ function App() {
       // https://cookieconsent.orestbida.com/reference/configuration-reference.html#guioptions
       guiOptions: {
         consentModal: {
-          layout: "cloud inline",
+          layout: "box",
           position: "bottom center",
           equalWeightButtons: true,
           flipButtons: false,
@@ -109,6 +109,7 @@ function App() {
               acceptAllBtn: "Accept all",
               acceptNecessaryBtn: "Reject all",
               showPreferencesBtn: "Manage Individual preferences",
+              additionalInfoBtn: "Show more info",
               // closeIconLabel: 'Reject all and close modal',
               footer: `
                         <a href="#path-to-impressum.html" target="_blank">Impressum</a>
