@@ -109,12 +109,7 @@ function App() {
               acceptAllBtn: "Accept all",
               acceptNecessaryBtn: "Reject all",
               showPreferencesBtn: "Manage Individual preferences",
-              additionalInfoBtn: "Show more info",
-              // closeIconLabel: 'Reject all and close modal',
-              footer: `
-                        <a href="#path-to-impressum.html" target="_blank">Impressum</a>
-                        <a href="#path-to-privacy-policy.html" target="_blank">Privacy Policy</a>
-                    `,
+              showAdditionalInfoBtn: "Show more info",
             },
             preferencesModal: {
               title: "Manage cookie preferences",
@@ -174,6 +169,11 @@ function App() {
                     'For any queries in relation to my policy on cookies and your choices, please <a href="#contact-page">contact us</a>',
                 },
               ],
+            },
+            additionalInfoModal: {
+              title: "More information",
+              description: `Here there is the project general infomation.`,
+              closeBtn: "Close",
             },
           },
         },
